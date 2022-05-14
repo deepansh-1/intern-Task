@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053293899492",
+    "project_id": "intrern-task",
+    "storage_bucket": "intrern-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053293899492:android:93f6bbe8b8b4d0ad8cc6f1",
+        "android_client_info": {
+          "package_name": "com.deepanshu.intrerntask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053293899492-34a39ii4ev4a6nl02dom2vqp9m94e4vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGN7Fp1dbNXnnrK6sJNm_g1zeRYaScs1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053293899492-34a39ii4ev4a6nl02dom2vqp9m94e4vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

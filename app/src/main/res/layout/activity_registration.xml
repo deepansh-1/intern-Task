@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Registration"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:id="@+id/name"
+    android:layout_height="wrap_content"
+      android:hint="User Name"
+    android:textSize="20sp"
+    android:layout_marginTop="20sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/password"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/conformPassword"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:hint="Conform Password"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Registration"
+        android:id="@+id/registration"
+        android:onClick="Registration"
+         android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/loginGone"
+        android:layout_height="wrap_content"
+        android:text="Already have an Account"
+
+        />
+
+
+
+
+</LinearLayout>
